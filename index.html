@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="data.json">
+    <title>Veri Çekme Örneği</title>
 </head>
 <body>
-    
+    <h1>JSON Verisini Çekme</h1>
+    <div id="data-container">
+        <!-- JSON verisi burada gösterilecek -->
+    </div>
+
+    <script>
+        fetch('data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json(); 
+            })
+            .then(data => {
+                console.log(data); 
+                const container = document.getElementById('data-container');
+                container.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            })
+            .catch(error => {
+                console.error('Fetching error:', error);
+            });
+    </script>
 </body>
 </html>
