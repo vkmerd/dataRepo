@@ -1,0 +1,24 @@
+{
+    "HTML": [
+        {
+            "soru": "HTML nedir?",
+            "cevap": "HTML, web sayfalarını oluşturmak için kullanılan bir işaretleme dilidir."
+        },
+        {
+            "soru": "HTML'de bir bağlantı nasıl oluşturulur?",
+            "cevap": "<a> etiketi kullanılarak bir bağlantı oluşturulur."
+        },
+        {
+            "soru": "HTML'de bir resim nasıl gösterilir?",
+            "cevap": "<img> etiketi kullanılarak bir resim gösterilir."
+        },
+        {
+            "soru": "HTML5 nedir?",
+            "cevap": "HTML5, HTML dilinin en son sürümüdür ve yeni özellikler ekler."
+        },
+        {
+            "soru": "HTML'de bir liste nasıl oluşturulur?",
+            "cevap": "<ul> veya <ol> etiketleri kullanılarak sırasız veya sıralı listeler oluşturulur."
+        }
+    ]
+}
