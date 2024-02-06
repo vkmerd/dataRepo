@@ -1,24 +1,26 @@
 {
-    "HTML": [
+    "HTMLSORULARİ": [
         {
             "soru": "HTML nedir?",
-            "cevap": "HTML, web sayfalarını oluşturmak için kullanılan bir işaretleme dilidir."
+            "cevap": true
         },
         {
-            "soru": "HTML'de bir bağlantı nasıl oluşturulur?",
-            "cevap": "<a> etiketi kullanılarak bir bağlantı oluşturulur."
+            "soru2": "HTML'de bir bağlantı nasıl oluşturulur?",
+            "cevap2": true
         },
         {
-            "soru": "HTML'de bir resim nasıl gösterilir?",
-            "cevap": "<img> etiketi kullanılarak bir resim gösterilir."
+            "soru3": "HTML'de bir resim nasıl gösterilir?",
+            "cevap3": true
         },
         {
-            "soru": "HTML5 nedir?",
-            "cevap": "HTML5, HTML dilinin en son sürümüdür ve yeni özellikler ekler."
-        },
+            "soru4": "Aşağıdaki hangi örnekte html de string hatası mevcuttur?",
+            "cevap4": "HTML5, HTML dilinin en son sürümüdür ve yeni özellikler ekler."
+        }
+    ],
+    "CSSSORULARİ":[
         {
-            "soru": "HTML'de bir liste nasıl oluşturulur?",
-            "cevap": "<ul> veya <ol> etiketleri kullanılarak sırasız veya sıralı listeler oluşturulur."
+            "cssSoru1":"Css te değişken tanımlanırken ne kullanılır?",
+            "cssCevap1": true
         }
     ]
 }
