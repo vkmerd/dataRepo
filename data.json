@@ -1,5 +1,10 @@
 {
     "quizzes": [
+        
+        
+        
+        
+        
         {
             "title": "HTML",
             "icon": "./assets/images/icon-html.svg",
@@ -106,6 +111,15 @@
                 }
             ]
         },
+
+
+
+
+
+
+
+
+
         {
             "title": "CSS",
             "icon": "./assets/images/icon-css.svg",
@@ -212,6 +226,11 @@
                 }
             ]
         },
+
+
+
+
+
         {
             "title": "JavaScript",
             "icon": "./assets/images/icon-js.svg",
@@ -318,6 +337,14 @@
                 }
             ]
         },
+
+
+
+
+
+
+
+
         {
             "title": "Accessibility",
             "icon": "./assets/images/icon-accessibility.svg",
@@ -424,5 +451,10 @@
                 }
             ]
         }
+
+
+
+
+
     ]
 }
