@@ -21,62 +21,62 @@
                 },
                 {
                     "question": "Which of the following is the correct structure for an HTML document?",
-                    "options": [
-                        "<html><head></head><body></body></html>",
-                        "<head><html></html><body></body></head>",
-                        "<body><head></head><html></html></body>",
-                        "<html><body></body><head></head></html>"
-                    ],
+                    "options": {
+                        "a" :  "<html><head></head><body></body></html>",
+                        "a" : "<head><html></html><body></body></head>",
+                        "a" : "<body><head></head><html></html></body>",
+                        "a" : "<html><body></body><head></head></html>"
+                    },
                     "answer": "<html><head></head><body></body></html>"
                 },
                 {
                     "question": "Which HTML element is used to define the title of a document?",
-                    "options": [
-                        "<head>",
-                        "<title>",
-                        "<header>",
-                        "<top>"
-                    ],
+                    "options": {
+                        "a" : "<head>",
+                        "a" : "<title>",
+                        "a" : "<header>",
+                        "a" :  "<top>"
+                    },
                     "answer": "<title>"
                 },
                 {
                     "question": "What is the purpose of the <body> tag in HTML?",
-                    "options": [
-                        "It defines the document's head section.",
-                        "It contains all the content such as text, images, and links.",
-                        "It is used to define the main content of an HTML document.",
-                        "It specifies the body of the email content in HTML."
-                    ],
+                    "options": {
+                        "a" :  "It defines the document's head section.",
+                        "a" :  "It contains all the content such as text, images, and links.",
+                        "a" :  "It is used to define the main content of an HTML document.",
+                        "a" : "It specifies the body of the email content in HTML."
+                    },
                     "answer": "It contains all the content such as text, images, and links."
                 },
                 {
                     "question": "Which HTML tag is used to create a hyperlink?",
-                    "options": [
-                        "<hyperlink>",
-                        "<link>",
-                        "<a>",
-                        "<href>"
-                    ],
+                    "options": {
+                        "a" : "<hyperlink>",
+                        "a" : "<link>",
+                        "a" : "<a>",
+                        "a" : "<href>"
+                    },
                     "answer": "<a>"
                 },
                 {
                     "question": "Which tag is used to display images in HTML?",
-                    "options": [
-                        "<img>",
-                        "<image>",
-                        "<src>",
-                        "<pic>"
-                    ],
+                    "options": {
+                        "a" : "<img>",
+                        "a" : "<image>",
+                        "a" : "<src>",
+                        "a" : "<pic>"
+                    },
                     "answer": "<img>"
                 },
                 {
                     "question": "What attribute is used to provide the path of an image in the <img> tag?",
-                    "options": [
-                        "link",
-                        "src",
-                        "href",
-                        "url"
-                    ],
+                    "options": {
+                        "a" :  "link",
+                        "a" : "src",
+                        "a" : "href",
+                        "a" : "url"
+                    },
                     "answer": "src"
                 },
                 {
@@ -126,42 +126,42 @@
             "questions": [
                 {
                     "question": "What does CSS stand for?",
-                    "options": [
-                        "Colorful Style Sheets",
-                        "Computer Style Sheets",
-                        "Cascading Style Sheets",
-                        "Creative Style Sheets"
-                    ],
+                    "options": {
+                        "a" :   "Colorful Style Sheets",
+                        "a" : "Computer Style Sheets",
+                        "a" : "Cascading Style Sheets",
+                        "a" : "Creative Style Sheets"
+                    },
                     "answer": "Cascading Style Sheets"
                 },
                 {
                     "question": "Which HTML attribute is used to define inline styles?",
-                    "options": [
-                        "styles",
-                        "style",
-                        "class",
-                        "font-style"
-                    ],
+                    "options": {
+                        "a" :   "styles",
+                        "a" :  "style",
+                        "a" : "class",
+                        "a" : "font-style"
+                    },
                     "answer": "style"
                 },
                 {
                     "question": "How do you insert a comment in a CSS file?",
-                    "options": [
-                        "// this is a comment //",
-                        "/* this is a comment */",
-                        "-- this is a comment --",
-                        "<!-- this is a comment -->"
-                    ],
+                    "options": {
+                        "a" :  "// this is a comment //",
+                        "a" : "/* this is a comment */",
+                        "a" : "-- this is a comment --",
+                        "a" : "<!-- this is a comment -->"
+                    },
                     "answer": "/* this is a comment */"
                 },
                 {
                     "question": "Which property is used to change the background color of an element?",
-                    "options": [
-                        "color",
-                        "bgcolor",
-                        "background-color",
-                        "background"
-                    ],
+                    "options": {
+                        "a" :   "color",
+                        "a" :   "bgcolor",
+                        "a" :  "background-color",
+                        "a" :  "background"
+                    },
                     "answer": "background-color"
                 },
                 {
@@ -237,32 +237,32 @@
             "questions": [
                 {
                     "question": "Which syntax is correct to output 'Hello World' in an alert box?",
-                    "options": [
-                        "alertBox('Hello World');",
-                        "msg('Hello World');",
-                        "alert('Hello World');",
-                        "msgBox('Hello World');"
-                    ],
+                    "options": {
+                        "a" :  "alertBox('Hello World');",
+                        "a" : "msg('Hello World');",
+                        "a" : "alert('Hello World');",
+                        "a" :"msgBox('Hello World');"
+                    },
                     "answer": "alert('Hello World');"
                 },
                 {
                     "question": "How do you call a function named 'myFunction'?",
-                    "options": [
-                        "call function myFunction()",
-                        "call myFunction()",
-                        "myFunction()",
-                        "execute myFunction()"
-                    ],
+                    "options": {
+                        "a" : "call function myFunction()",
+                        "a" : "call myFunction()",
+                        "a" : "myFunction()",
+                        "a" : "execute myFunction()"
+                    },
                     "answer": "myFunction()"
                 },
                 {
                     "question": "How to write an IF statement in JavaScript?",
-                    "options": [
-                        "if i = 5 then",
-                        "if (i == 5)",
-                        "if i == 5",
-                        "if i = 5"
-                    ],
+                    "options": {
+                        "a" : "if i = 5 then",
+                        "a" :"if (i == 5)",
+                        "a" :"if i == 5",
+                        "a" : "if i = 5"
+                    },
                     "answer": "if (i == 5)"
                 },
                 {
@@ -351,32 +351,32 @@
             "questions": [
                 {
                     "question": "What does 'WCAG' stand for?",
-                    "options": [
-                        "Web Content Accessibility Guidelines",
-                        "Web Compliance Accessibility Guide",
-                        "Web Content Accessibility Goals",
-                        "Website Compliance and Accessibility Guidelines"
-                    ],
+                    "options": {
+                        "a" : "Web Content Accessibility Guidelines",
+                        "a" : "Web Compliance Accessibility Guide",
+                        "a" :"Web Content Accessibility Goals",
+                        "a" :"Website Compliance and Accessibility Guidelines"
+                    },
                     "answer": "Web Content Accessibility Guidelines"
                 },
                 {
                     "question": "Which element is used to provide alternative text for images for screen reader users?",
-                    "options": [
-                        "<alt>",
-                        "<figcaption>",
-                        "<description>",
-                        "<img alt='description'>"
-                    ],
+                    "options": {
+                        "a" :  "<alt>",
+                        "a" :"<figcaption>",
+                        "a" :"<description>",
+                        "a" :"<img alt='description'>"
+                    },
                     "answer": "<img alt='description'>"
                 },
                 {
                     "question": "What does ARIA stand for in web development?",
-                    "options": [
-                        "Accessible Rich Internet Applications",
-                        "Advanced Responsive Internet Assistance",
-                        "Accessible Responsive Internet Applications",
-                        "Automated Responsive Internet Actions"
-                    ],
+                    "options": {
+                        "a" : "Accessible Rich Internet Applications",
+                        "a" : "Advanced Responsive Internet Assistance",
+                        "a" : "Accessible Responsive Internet Applications",
+                        "a" : "Automated Responsive Internet Actions"
+                    },
                     "answer": "Accessible Rich Internet Applications"
                 },
                 {
